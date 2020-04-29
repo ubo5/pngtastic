@@ -23,7 +23,7 @@ If you're willing to sacrifice compression speed in exchange for ridiculously go
 Example usage:
 
     $ mvn install
-    $ java -cp target/pngtastic-1.6-SNAPSHOT.jar com.googlecode.pngtastic.PngtasticOptimizer --compressor zopfli --iterations 32 --fileSuffix .min.png images/optimizer/amigaball.png
+    $ java -cp target/pngtastic-1.7-SNAPSHOT.jar com.googlecode.pngtastic.PngtasticOptimizer --compressor zopfli --iterations 32 --fileSuffix .min.png images/optimizer/amigaball.png
 
 So far I'm seeing better compression ratios for my test images than even the excellent ImageOptim app produces.
 
